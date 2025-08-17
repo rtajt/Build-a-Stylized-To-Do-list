@@ -1,19 +1,18 @@
 a {
   text-decoration: none;
 }
-a:link {
+.sub-item-link:link {
   color: #458588;
 }
-a:visited {
+.sub-item-link:visited {
   color: #b16286;
 }
-a:hover {
+.sub-item-link:hover {
   color: #98971a;
 }
-a:focus {
-  /*Just need an outline, not a color*/
-  color: #d79921;
+.sub-item-link:focus {
+  outline: 2px solid #d79921;
 }
-a:active {
+.sub-item-link:active {
   color: #cc241d;
 }
