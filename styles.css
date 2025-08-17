@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #458588;
+}
+a:visited {
+  color: #b16286;
+}
+a:hover {
+  color: #98971a;
+}
+a:focus {
+  /*Just need an outline, not a color*/
+  color: #d79921;
+}
+a:active {
+  color: #cc241d;
+}
